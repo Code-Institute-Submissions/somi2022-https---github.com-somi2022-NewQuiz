@@ -21,4 +21,21 @@ function check(){
     if ( question5 == "Sweden") {
         correct++;
     }
-    
+    var messages = ["You won a present!<i>Congradulation</i>.", "Just one more right, you win a present", "You are almost there." , "You can fix it." ,  "Try more!"];
+    var videos = ["videoQ/Video 5.gif", "videoQ/video 4.gif", "videoQ/video 3.gif", "videoQ/video 2.gif", "videoQ/video 1.gif"];
+    var range;
+    if (correct <= 1){
+        range = 4;
+    }
+    if (correct <= 2 && correct > 1){
+        range = 3;
+    }
+    if (correct ==3){
+        range = 2;
+    }
+    if (correct > 3 && correct < 5) {
+        range = 1;
+    }
+    if (correct > 4) {
+        range = 0;
+    }
