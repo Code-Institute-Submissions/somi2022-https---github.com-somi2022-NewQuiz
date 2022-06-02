@@ -9,10 +9,10 @@ function check(){
     if ( question1 == "Biden") {
         correct++;
     }
-    if ( question2 == "Blair") {
+    if ( question2 == "Putin") {
         correct++;
     }
-    if ( question3 == "Stefan Loven") {
+    if ( question3 == "Magdalna Andersson") {
         correct++;
     }
     if ( question4 == "Tesla") {
