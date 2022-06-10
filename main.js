@@ -17,7 +17,7 @@ function check(){
     }
     if ( question4 == "Tesla") {
         correct++;
-    }
+    }  
     if ( question5 == "Sweden") {
         correct++;
     }
