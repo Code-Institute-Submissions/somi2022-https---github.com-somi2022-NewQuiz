@@ -12,7 +12,7 @@ function check(){
     if ( question2 == "Putin") {
         correct++;
     }
-    if ( question3 == "Magdalna Andersson") {
+    if ( question3 == "Loven") {
         correct++;
     }
     if ( question4 == "Tesla") {
