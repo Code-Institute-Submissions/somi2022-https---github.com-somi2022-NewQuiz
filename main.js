@@ -22,7 +22,7 @@ function check(){
         correct++;
     }
     var messages = ["You won a present!<i>Congradulation</i>.", "Just one more right, you win a present", "You are almost there." , "You can fix it." ,  "Try more!"];
-    var videos = ["videoQ/video 5.gif", "videoQ/video 4.gif", "videoQ/video 3.gif", "videoQ/video 2.gif", "videoQ/Video 1.gif"];
+    var videos = ["videoQ/Video 5.gif", "videoQ/video 4.gif", "videoQ/video 3.gif", "videoQ/video 2.gif", "videoQ/video 1.gif"];
     var range;
     if (correct <= 1){
         range = 4;
